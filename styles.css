@@ -1,0 +1,14 @@
+div{
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+form{
+    border-radius: 20px;
+    position: centered;
+}
+
+h1{
+    position: centered;
+}

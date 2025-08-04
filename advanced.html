@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <style>
+            #container{
+                display: flex;
+                fle-wrap: wrap;
+            }
+            <link rel="stylesheet" href="styles.css">
+        </style>
+    </head>
+    <body>
+        <h1>Find pages with...</h1>
+        <div id="container">
+            <form action="https://images.google.co.uk/search">
+                <input type="text" placeholder="all these words:" name="as_q">
+                <input type="submit" value="Enter">
+                <input type="text" placeholder="this exact word or phrase:" name="as_epq">
+                <input type="submit" value="Enter">
+                <input type="text" placeholder="any of these words:" name="as_oq">
+                <input type="submit" value="Enter">
+                <input type="text" placeholder="none of these words:" name="as_eq">
+                <input type="submit" value="Enter">
+            </form>
+        </div>
+    </body>
+</html>
